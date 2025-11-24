@@ -139,8 +139,8 @@ if 'month' in grace_data.columns and 'lwe_thickness' in grace_data.columns:
     plt.tight_layout()
     plt.show()
 # Explore crop data structure
-print("🌾 Agricultural Data Structure:")
+print(" Agricultural Data Structure:")
 print(agri_data.info())
 
-print("\n📊 Sample Data:")
+print("\nSample Data:")
 print(agri_data.head(10))
